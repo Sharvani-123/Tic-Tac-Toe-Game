@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding:0;
+    justify-content: center;
+}
+
+body{
+    background-color:tan;
+    text-align: center;
+    /* position: fixed; */
+    
+}
+
+#msg{
+    color:brown;
+    font-size: 5vmin;
+    margin-top: 20rem;
+
+}
+.msg_container{
+    
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 2rem;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font: bolder;
+    font-family:sans-serif ;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5vmin;
+    width: 70vmin;
+    margin:auto;
+    border-radius: 2rem;
+    
+    
+
+}
+
+.game{
+    height: 65vmin;
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    background-color: rgb(156, 143, 188);
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: firebrick;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: aliceblue;
+
+}
+
+#reset-btn{
+    height:5px;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    margin:auto;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:rgb(84, 80, 80);
+    color:aliceblue;
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+#new-btn{
+        height:5px;
+        text-align: center;
+        align-items: center;
+        display:flex;
+        margin:auto;
+        padding: 1rem;
+        font-size: 1.25rem;
+        background-color:rgb(84, 80, 80);
+        color:aliceblue;
+        border-radius: 0.8rem;
+        border: none;
+        transition: background-color 0.3s ease;
+        margin-bottom: 16rem;
+        cursor: pointer;
+    
+    }
+
+  .hide{
+    display:none;
+  }  
+
+  #reset-btn:hover{
+    background-color:rgb(205, 128, 101);
+    color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #new-btn:hover{
+    background-color:rgb(205, 128, 101);
+    color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
